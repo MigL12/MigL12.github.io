@@ -1,0 +1,36 @@
+*{
+ padding: 0;
+ margin: 0;
+ scroll-behavior: smooth;
+ text-rendering: optimizeSpeed;
+}
+
+.logo{
+    height: 65px;
+    filter: invert(100%);
+}
+
+.header{
+    min-height: 100vh;
+    background-image: linear-gradient(#1c1c1c5f,#1c1c1c5f),url('../img/bgbg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.card1{
+    background-color: #1c1c1cb5;
+}
+.footer{
+    min-height: 5vh;
+    background-color: black;
+}
+.aboutus{
+    min-height: 100vh;
+    background-image: linear-gradient(#1c1c1c5f,#1c1c1c5f),url('../img/c4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
